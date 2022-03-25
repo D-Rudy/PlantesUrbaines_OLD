@@ -29,7 +29,7 @@
             </ul>
             <ul class="liens">
                 <li>Commandes</li>
-                <li><a href="#">Afficher les commandes</a></li>
+                <li><a href="afficherCommande.jsp">Afficher les commandes</a></li>
                 <li><a href="#">Modifier les commandes</a></li>
                 <li><a href="#">Supprimer les commandes</a></li>
             </ul>
