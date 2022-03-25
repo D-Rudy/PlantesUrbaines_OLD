@@ -22,7 +22,7 @@
             </ul>
             <ul class="liens">
                 <li>Produits</li>
-                <li><a href= 'produits.jsp'>Voir le stock</a></li>                
+                <li><a href= 'afficherProduit.jsp'>Voir le stock</a></li>                
                 <li><a href="#">Ajouter un produit</a></li>
                 <li><a href="#">Modifier un produit</a></li>
                 <li><a href="#">Supprimer un produit</a></li>
