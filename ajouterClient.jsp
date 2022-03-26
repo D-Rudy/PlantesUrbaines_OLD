@@ -1,6 +1,6 @@
 <%@page import="java.sql.*"%>
 <%@include file="connexion.jsp"%>
-<%@include file="menu.jsp"%>
+
 
 <!<!doctype html>
 <html>
@@ -8,6 +8,8 @@
         <title>Ajouter un client | Plantes Urbaines</title>
     </head>
     <body>
+        <%@include file="menu.jsp"%>
+        
         <form action="" method="POST">
             <fieldset>
                 <legend>Ajouter un nouveau client</legend>
