@@ -1,6 +1,5 @@
 <%@page import="java.sql.*" %>
 <%@include file="connexion.jsp" %>
-<%@include file="menu.jsp" %>
 
 <!<!doctype html>
 <html>
@@ -8,6 +7,7 @@
         <title>Commandes | Plantes Urbaines</title>
     </head>
     <body>
+        <%@include file="menu.jsp" %>
         <form action ="" method="GET">
             <label>Trier par:</label>
             <select name="tri" id="tri">
