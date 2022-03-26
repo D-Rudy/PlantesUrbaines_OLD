@@ -3,7 +3,6 @@
 <%@ page import="java.util.Date"%>
 <%@ page import="java.util.Calendar"%>
 <%@ page import="java.text.SimpleDateFormat"%>
-<%@ include file ="menu.jsp" %>
 <%@ include file = "connexion.jsp" %>
 <%DateFormat Date = DateFormat.getDateInstance();
     Calendar cals = Calendar.getInstance();
@@ -17,11 +16,11 @@
         <title>Plant Urbaines | Accueil</title>
     </head>
     <body>
-
-        <img id="logo" src="image/logo.png" alt="Magasin de plantes vertes"/>
+        <%@ include file ="menu.jsp" %>
+        <img id="logo" src="image/logo.png" alt="logo Magasin de plantes vertes"/>
         <h1>  Plantes Urbaines</h1>
         <h4>On va vous faire aimer les plantes !</h4>
+        <img id="logo" src="image/accueil.jpg" alt="Magasin de plantes vertes"/>
         <h2>Nous somme le <%= date %></h2>
-
     </body>
 </html>
